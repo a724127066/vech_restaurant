@@ -1,0 +1,25 @@
+server:
+  port: 8894
+spring:
+  application:
+    name: restaurant
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:   jdbc:mysql://haozheng.club:3306/restaurant?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: A1haozheng!
+
+  jpa:
+    database: mysql
+    show-sql: false
+  redis:
+    host: 127.0.0.1
+  servlet:
+    multipart:
+      max-file-size: 4096MB
+      max-request-size: 4096MB
+
+
+
+
+
