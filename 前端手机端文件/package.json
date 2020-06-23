@@ -1,0 +1,58 @@
+{
+  "name": "restaurant_m",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "core-js": "^3.4.3",
+    "hover.css": "^2.3.2",
+    "jwt-decode": "^2.2.0",
+    "vant": "^2.0.5",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.1",
+    "vue-scroller": "^2.2.4",
+    "vuescroll": "^4.14.4",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "axios": "^0.18.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-import": "^1.8.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-cli-plugin-route": "0.0.7",
+    "vue-cli-plugin-store": "0.0.7",
+    "vue-cli-plugin-vant": "^1.0.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
